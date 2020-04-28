@@ -1,12 +1,12 @@
 import React from "react"
 
-import VideoBackground from "../components/VideoBackground"
-import Button from "../components/Button"
-import Display from "../components/display"
-import TotalTimer from "../components/totalTimer"
-import ModeSelector from "../components/modeSelector"
-import InstructionsModal from "../components/instructionsModal"
-import SEO from "../components/seo"
+import VideoBackground from "../components/VideoBackground.js"
+import Button from "../components/Button.js"
+import Display from "../components/Display.js"
+import TotalTimer from "../components/TotalTimer.js"
+import ModeSelector from "../components/ModeSelector.js"
+import InstructionsModal from "../components/InstructionsModal.js"
+import SEO from "../components/Seo.js"
 
 export default class IndexPage extends React.Component {
   constructor(props) {
