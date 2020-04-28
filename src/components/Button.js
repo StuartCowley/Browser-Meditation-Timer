@@ -16,4 +16,4 @@ Button.defaultProps = {
   timerRunning: false
 }
 
-export default Button
+export default Butto
