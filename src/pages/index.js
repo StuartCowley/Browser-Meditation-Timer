@@ -6,7 +6,6 @@ import Display from "../components/Display.js"
 import TotalTimer from "../components/TotalTimer.js"
 import ModeSelector from "../components/ModeSelector.js"
 import InstructionsModal from "../components/InstructionsModal.js"
-// import SEO from "../components/SEO.js"
 
 export default class IndexPage extends React.Component {
   constructor(props) {
@@ -50,7 +49,6 @@ export default class IndexPage extends React.Component {
     } else return ''
   }
   
-  // <SEO title="Home" />
   render() {
     return (
       <> 

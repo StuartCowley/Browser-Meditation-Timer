@@ -36,5 +36,11 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`,
       },
     },
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        // Add any options here
+      },
+    },
   ],
 }
