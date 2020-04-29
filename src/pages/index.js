@@ -6,7 +6,7 @@ import Display from "../components/Display.js"
 import TotalTimer from "../components/TotalTimer.js"
 import ModeSelector from "../components/ModeSelector.js"
 import InstructionsModal from "../components/InstructionsModal.js"
-import SEO from "../components/SEO.js"
+// import SEO from "../components/SEO.js"
 
 export default class IndexPage extends React.Component {
   constructor(props) {
@@ -50,12 +50,12 @@ export default class IndexPage extends React.Component {
     } else return ''
   }
   
+  // <SEO title="Home" />
   render() {
     return (
       <> 
       <VideoBackground />
       <div className="content-wrap" ref="inner">
-        <SEO title="Home" />
         <TotalTimer timerRunning={this.state.timerRunning} time={{hours:this.state.hours, minutes:this.state.minutes, seconds:this.state.seconds}} tick={this.tick} />
         <InstructionsModal show={this.state.timerRunning} mode={this.state.currentMode} />
         <div className="button-wrap">
