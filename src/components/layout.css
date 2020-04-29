@@ -1,4 +1,4 @@
-.content-wrap {
+/* .content-wrap {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -116,10 +116,6 @@
     margin-left: auto;
     margin-right: auto;
   }
-  /* .button {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  } */
 }
 
 @keyframes complete {
@@ -240,4 +236,4 @@ body {
 
 form {
   padding: 0.5rem;
-}
+} */
